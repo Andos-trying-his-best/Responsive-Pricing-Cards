@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container {
+    padding: 2rem;
+}
+
+.Container .Box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 80rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Container .Box .Options {
+    background-color: #f8fafc;
+    border-radius: 1rem;
+    border: 1px solid #e2e8f0;
+    width: 22rem;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 22rem;
+    transition: 0.4s ease, 0.4s ease;
+}
+
+.Container .Box .Options:hover {
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-0.8rem);
+}
+
+.Container .Box .Options .Head {
+    padding: 2rem;
+}
+
+.Container .Box .Options .Head h1 {
+    text-align: center;
+    color: #1e293b;
+    font-weight: 600;
+}
+
+.Container .Box .Options .Head p {
+    text-align: center;
+    color: #64748b;
+}
+
+.Container .Box .Options .Pricer {
+    padding-inline: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.Container .Box .Options .Pricer h1 {
+    color: #1e3a8a;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.Container .Box .Options .SubPricer {
+    display: flex;
+    flex-direction: row;
+    color: #64748b;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.Container .Box .Options .SubPricer .SubSubPricer btn {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    padding-inline: 0.2rem;
+}
+
+.Container .Box .Options .Features {
+    padding-inline: 2.5rem;
+    padding-block: 1rem;
+    padding-block-end: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #1e293b;
+}
+
+.Container .Box .Options .Features px {
+    color: #c2c2c2;
+    font-weight: 300;
+}
+
+.Container .Box .Options .CTA {
+    padding-inline: 2.5rem;
+    padding-block-start: 1rem;
+    padding-block-end: 2rem;
+    display: flex;
+}
+
+.Container .Box .Options .CTA btn {
+    background-color: white;
+    color: #1e3a8a;
+    border: 2px solid #1e3a8a;
+    border-radius: 0.35rem;
+    padding-block: 0.5rem;
+    width: 100%;
+    text-align: center;
+    transition: 0.5s ease, 0.5s ease;
+}
+
+.Container .Box .Options .CTA btn:hover {
+    background-color: #1e3a8a;
+    color: #ffffff;
+}
+
+.Credit {
+    text-align: center;
+    color: #64748b;
+    text-decoration: underline;
+    text-decoration-thickness: 0.005rem;
+}
